@@ -248,7 +248,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    const target = "orussoyt — ex cyberteam";
+    const target = "Blessed";
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       document.title = target;
       return;
